@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Moon Security - Resultados Encuesta</title>
+    <link rel="stylesheet" href="resultados.css" />
+    <style>
+      body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          margin: 0;
+          background-color: black;
+          min-height: 100vh;
+      }
+      .contenedor {
+          display: flex;
+          justify-content: center; 
+          width: 1280px;
+      }
+      iframe {
+          width: 800px; 
+          height: 600px;
+          border: none;
+          background-color: black;
+      }
+  </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="btn-menu">
+          <label for="btn-menu">☰</label>
+        </div>
+        <div class="logo">
+          <a href="inicio.php"><img src="logo_moon.jpg" class="logo"></a>
+        </div>
+        <nav class="menu">
+          <a href="inicio.php">MOON SECURITY</a>
+        </nav>
+      </div>
+    </header>
+    <div class="capa"></div>
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+      <div class="cont-menu">
+        <nav>
+          <a href="../pagina.html">MOON SECURITY</a>
+          <a href="p2.html">ANALISIS</a>
+          <a href="p3.html">GRAFICOS</a>
+        </nav>
+        <label for="btn-menu">✖️</label>
+      </div>
+    </div>
+    <div class="contenedor">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRf3m0hPEVHaAyj4Xd-1gMrJTyJN-Jba6IRvPL85Y-6jjUvUBjSH0UXn4M1Sx0_89myn5FTzDcLDuIT/pubchart?oid=1665706073&amp;format=interactive"></iframe>
+  </div>
+
+  <div class="contenedor">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRf3m0hPEVHaAyj4Xd-1gMrJTyJN-Jba6IRvPL85Y-6jjUvUBjSH0UXn4M1Sx0_89myn5FTzDcLDuIT/pubchart?oid=1161384504&amp;format=interactive"></iframe>
+  </div>
+
+  <div class="contenedor">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRf3m0hPEVHaAyj4Xd-1gMrJTyJN-Jba6IRvPL85Y-6jjUvUBjSH0UXn4M1Sx0_89myn5FTzDcLDuIT/pubchart?oid=298818018&amp;format=interactive"></iframe>
+  </div>
+  </body>
+</html>
