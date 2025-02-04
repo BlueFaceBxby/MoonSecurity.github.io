@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resultados.css">
+    <title>Tarjeta con Imagen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .tarjetas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            background: rgba(255, 255, 255, 0);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 80%;
+            text-align: center;
+        }
+        p{
+          color: white;
+            text-align: justify;
+            text-align-last: center;
+            font-size: 15px;
+            line-height: 2.0;
+            max-width: 920px;
+            margin: 0 auto;
+
+        }
+        .texto {
+            color: white;
+            text-align: justify;
+            text-align-last: center;
+            font-size: 15px;
+            line-height: 2.0;
+            max-width: 920px;
+            margin: 0 auto;
+        }
+        .imagen img {
+            width: 350px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+      </div>
+      <div class="logo">
+        <a href="inicio.php"><img src="logo_moon.jpg" class="logo"></a>
+      </div>
+      <nav class="menu">
+        <a href="inicio.php">MOON SECURITY</a>
+      </nav>
+    </div>
+  </header>
+  <div class="capa"></div>
+  <input type="checkbox" id="btn-menu" />
+  <div class="container-menu">
+    <div class="cont-menu">
+      <nav>
+        <a href="pagina.html">MOON SECURITY</a>
+        <a href="p2.html">ANALISIS</a>
+        <a href="p3.html">GRAFICOS</a>
+      </nav>
+      <label for="btn-menu">✖️</label>
+    </div>
+  </div>
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 1: ¿Qué tan importante cree que es la seguridad emocional de los estudiantes en el ámbito escolar?</h1>
+           <center><p>La mayoría de los encuestados considera que la implementación de una plataforma digital para reportar incidentes es altamente relevante. Un número significativo también la considera importante, lo que refleja una percepción positiva en general sobre la necesidad de esta herramienta. No se registraron respuestas en la opción "No tan importante", lo que indica un consenso favorable sobre su implementación en la comunidad. Esto sugiere que la mayoría ve la plataforma como una solución clave para abordar problemas dentro de la institución.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p1.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 2: ¿Cree que la creación de una web para reportar bullying y agresiones podría ser útil en su institución?</h1>
+            <center> <p>En un gran porcentaje de los encuestados está a favor de que la plataforma permita realizar reportes de manera anónima, considerando esta opción como esencial para la efectividad de la herramienta. Además, un número considerable de personas muestra una actitud abierta, señalando que dependería de cómo se implementen las funcionalidades. Solo una pequeña fracción considera que no es necesario incorporar esta opción, lo que refuerza la importancia de la confidencialidad para los usuarios a la hora de reportar incidentes.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p2.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 3: ¿Qué tan probable sería que utilice una web para reportar acoso o agresiones si estuviera disponible?</h1>
+            <center> <p>Una gran parte de los encuestados muestra una actitud positiva hacia el uso de la plataforma, indicando que es muy probable o algo probable que la utilicen si estuviera disponible. Esto sugiere un interés generalizado en la herramienta, con una inclinación mayor hacia su uso. Solo un pequeño número de participantes considera que utilizarían la plataforma en menor medida o no la utilizarían en absoluto. Estos resultados reflejan un fuerte potencial de aceptación de la plataforma entre los usuarios.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p3.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 4: ¿Cuáles de las siguientes características considera más importantes en una web de reportes confidenciales? (Seleccione todas las que apliquen)  </h1>
+            <center> <p> Los encuestados consideran que las características más valoradas de la plataforma serían la seguridad en el manejo de datos y la facilidad para hacer el reporte. Esto sugiere que los usuarios priorizan la protección de su información personal y la simplicidad del proceso de reportar incidentes. Además, la confidencialidad garantizada y el acceso a apoyo psicológico también son aspectos importantes para los usuarios, aunque con una menor cantidad de respuestas. La accesibilidad desde dispositivos móviles también se menciona como una característica relevante, indicando que los usuarios valoran la disponibilidad de la plataforma en sus dispositivos personales. Por último, aunque la interfaz amigable y fácil de usar es importante, no se destaca tanto como las otras características mencionadas.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p4.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 5: ¿Qué tan importante es para usted que los reportes sean anónimos y no se pueda rastrear a los estudiantes que hacen los reportes?</h1>
+            <center> <p>Un gran grupo de los encuestados considera que contar con una plataforma para reportar incidentes de forma anónima es muy importante. Esto refleja una alta prioridad en la necesidad de garantizar la privacidad de los usuarios al momento de realizar reportes, lo que puede estar vinculado a la preocupación por posibles represalias o estigmatización. Un porcentaje menor considera que es algo importante, lo que indica que, aunque no es fundamental para todos, sigue siendo un aspecto valorado. Solo un pequeño grupo considera que no es importante, lo que podría indicar una falta de comprensión sobre la importancia de la confidencialidad o la necesidad de la plataforma.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p5.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 6: ¿Cree que una plataforma web podría ser una forma eficiente para que los administradores escolares detecten patrones de bullying y agresión?</h1>
+            <center><p>Una gran mayoría de los encuestados opina que una plataforma como la descrita podría reducir el acoso escolar en la institución, lo que refleja una percepción positiva sobre la efectividad de esta herramienta para abordar este problema. Esto sugiere que los estudiantes creen que tener un medio confidencial y accesible para reportar incidencias puede ayudar a combatir el acoso. Un pequeño grupo, aunque en menor cantidad, no está seguro/a o no cree que la plataforma tenga este impacto. Esto podría indicar escepticismo o falta de conocimiento sobre cómo funciona el sistema propuesto.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p6.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 7: Si se implementara una plataforma como Moon Security en su institución, ¿cómo preferiría que los estudiantes informaran sobre los incidentes?</h1>
+            <center><p>La opción preferida para realizar un reporte es llenar un formulario en línea, lo que indica que los estudiantes valoran la simplicidad y la estructura de este método para comunicar sus problemas de manera clara y ordenada. Las opciones de correo electrónico y chat anónimo obtuvieron el mismo número de respuestas, lo que sugiere que algunos usuarios podrían preferir métodos más informales o que permitan interacción directa, pero con un grado de anonimato. El predominio del formulario en línea refleja la necesidad de una herramienta fácil de usar y accesible, que también se alinea con las expectativas de anonimato y seguridad.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p7.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 8: En una escala del 1 al 5, ¿cuánto cree que mejoraría el ambiente escolar si los estudiantes pudieran reportar anónimamente el bullying?</h1>
+            <center><p>La mayoría de los estudiantes considera que la plataforma sería muy útil, con una inclinación significativa hacia la puntuación máxima de 5, lo que indica un alto nivel de confianza en la plataforma como una herramienta eficaz para abordar sus problemas. Solo un número mínimo de participantes (1) considera que sería de poca utilidad, lo que sugiere una fuerte aceptación general por parte de los estudiantes. La opción 4 también refleja un apoyo considerable, lo que indica que la mayoría de los estudiantes ven la plataforma como una solución valiosa y relevante para sus necesidades.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p8.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    
+    <div class="tarjetas">
+        <div class="texto">
+            <h1>Pregunta 9: ¿Qué tan satisfecho/a estaría si la plataforma también ofreciera seguimiento psicológico para los estudiantes que lo necesiten?</h1>
+            <center> <p>Los resultados muestran que la mayoría de los estudiantes están satisfechos o muy satisfechos con la idea de utilizar la plataforma, lo que refleja una aceptación positiva hacia su funcionalidad y propósito. La opción neutral también tiene un número pequeño de respuestas, lo que indica que algunos estudiantes pueden tener dudas o no estar completamente convencidos. Sin embargo, el porcentaje de estudiantes insatisfechos o muy insatisfechos es mínimo, lo que resalta que la plataforma tiene una buena recepción general entre los estudiantes.</p></center>
+        </div>
+        <div class="imagen">
+            <img src="p9.jpeg" alt="Imagen de referencia">
+        </div>
+    </div>
+    <div class="tarjetas">
+      <div class="texto">
+          <h1>Pregunta 10: ¿Cree que este sistema fomentará un ambiente escolar más seguro y respetuoso?</h1>
+        <center><p> Muchos de los estudiantes expresan un claro interés en utilizar la plataforma para reportar acoso escolar, lo que indica que la propuesta es bien recibida y percibida como útil. Sin embargo, una parte significativa se muestra indecisa, lo que sugiere que, aunque hay interés, algunos estudiantes podrían necesitar más información o garantías antes de comprometerse con su uso. Un pequeño porcentaje no tiene claro si utilizaría la plataforma, lo que podría reflejar dudas o falta de confianza en la tecnología propuesta. En general, los resultados son positivos, aunque algunos estudiantes aún pueden necesitar más claridad sobre su funcionamiento.</p></center>
+      </div>
+      <div class="imagen">
+          <img src="p10.jpeg" alt="Imagen de referencia">
+      </div>
+  </div>
+</body>
+</html>
